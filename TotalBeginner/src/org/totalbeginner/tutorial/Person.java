@@ -26,5 +26,10 @@ public class Person {
 		this.maximumBooks = maximumBooks;
 	}
 	
+	public String toString() {
+		return this.getName() + " (" + this.getMaximumBooks() + " books)";
+		
+	}
+	
 
 }
